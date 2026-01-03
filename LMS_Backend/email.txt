@@ -1,0 +1,14 @@
+{
+    "email":"dzaki@gmail.com",
+    "password": "123456"
+}
+
+
+alur bikin Backend : {
+                        Domain, 
+                        usecase, 
+                        repository,
+                        handler,
+                        infrastructure, 
+                        main.go
+                        }
