@@ -14,7 +14,7 @@ export default function CourseDetail() {
       .then(setCourse);
   }, [id]);
 
-  if (!course) return <p className="text-white p-6">Loading...</p>;
+  if (!course) return <p className="text-white">Loading...</p>;
 
   return (
     <main className="p-6 text-white">

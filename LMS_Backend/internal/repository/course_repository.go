@@ -29,3 +29,7 @@ func (r *courseRepository) FindById(id uint) (*domain.Course, error) {
 	err := r.db.First(&course, id).Error
 	return &course, err
 }
+
+func (r *courseRepository) Update(course *domain.Course) error {	
+	return r.db.Save(course).Error
+}

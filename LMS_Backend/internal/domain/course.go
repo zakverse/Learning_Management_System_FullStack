@@ -15,5 +15,6 @@ type CourseRepository interface {
 	Create(course *Course) error
 	FindAll() ([]Course, error)
 	FindById(id uint) (*Course, error)
+	Update(course *Course) error
 }
 
